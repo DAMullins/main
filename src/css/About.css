@@ -1,0 +1,42 @@
+.about {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap; /* Allows stacking on small screens */
+    justify-content: center;
+    gap: 30px; /* Space between portrait and bio */
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .portrait-container {
+    flex: 1;
+    min-width: 250px; /* Ensures it doesn’t get too small */
+  }
+  
+  .portrait {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .bio {
+    flex: 2;
+    text-align: left;
+    min-width: 300px; /* Ensures readability on small screens */
+  }
+  
+  .bio p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+  }

@@ -1,0 +1,90 @@
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .contact h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap; /* Responsive stacking */
+    justify-content: center;
+    gap: 40px; /* Space between form and schedule section */
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .contact-form {
+    flex: 2;
+    min-width: 300px; /* Ensures form doesn’t shrink too much */
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Includes padding in width */
+  }
+  
+  .form-group textarea {
+    resize: vertical; /* Allows vertical resize only */
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  .schedule-section {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+  }
+  
+  .schedule-section p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .schedule-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .schedule-button:hover {
+    background-color: #218838; /* Darker green */
+  }
