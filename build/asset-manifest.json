@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41401991.css",
+    "main.js": "/static/js/main.5b7adfe0.js",
+    "static/js/453.0cc0ac16.chunk.js": "/static/js/453.0cc0ac16.chunk.js",
+    "static/media/stock1.jpg": "/static/media/stock1.750be0eec7318e98fe0d.jpg",
+    "static/media/IMG_9057.jpg": "/static/media/IMG_9057.7f0f59cc9920b74a749e.jpg",
+    "static/media/TurnKeyRealty.png": "/static/media/TurnKeyRealty.d22bf1768b10e43cf3fa.png",
+    "index.html": "/index.html",
+    "main.41401991.css.map": "/static/css/main.41401991.css.map",
+    "main.5b7adfe0.js.map": "/static/js/main.5b7adfe0.js.map",
+    "453.0cc0ac16.chunk.js.map": "/static/js/453.0cc0ac16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41401991.css",
+    "static/js/main.5b7adfe0.js"
+  ]
+}
